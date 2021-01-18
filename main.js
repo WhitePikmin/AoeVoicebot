@@ -3,7 +3,7 @@ require('dotenv').config();
 const client = new Discord.Client();
 const fs = require('fs');
 const broadcast = client.voice.createBroadcast();
-const folderPath = ".\\Taunts\\English\\";
+const folderPath = "./Taunts/English/";
 const token = process.env.BOT_TOKEN;
 const timeConnected = 15 * (60 * 1000);
 
