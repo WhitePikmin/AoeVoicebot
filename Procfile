@@ -1,1 +1,1 @@
-worker: nodemon --inspect main.js
+worker:node main.js
